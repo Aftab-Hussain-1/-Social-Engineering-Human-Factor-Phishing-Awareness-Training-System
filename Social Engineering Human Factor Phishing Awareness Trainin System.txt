@@ -1,0 +1,28 @@
+PhishingAwarenessProject/
+├── chrome_extension/
+│   ├── background.js
+│   ├── content.js
+│   ├── popup.html
+│   ├── popup.js
+│   ├── icons/
+│   ├── manifest.json
+├── risk_score_calculator/
+│   ├── backend/
+│   │   ├── app.py (Flask) or server.js (Node.js)
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── db.sqlite3
+│   ├── frontend/
+│   │   ├── templates/
+│   │   │   ├── index.html
+│   │   │   ├── dashboard.html
+│   │   │   ├── quiz.html
+│   │   └── static/
+│   │       ├── css/
+│   │       ├── js/
+│   ├── requirements.txt or package.json
+├── database_schema/
+│   └── schema.sql
+├── docs/
+│   └── SRS.pdf
+├── README.md
